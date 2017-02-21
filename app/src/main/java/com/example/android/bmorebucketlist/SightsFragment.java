@@ -6,7 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -22,9 +24,19 @@ public class SightsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        TextView textView = new TextView(getActivity());
-        textView.setText(R.string.hello_blank_fragment);
-        return textView;
+        View rootView = inflater.inflate(R.layout.word_list, container, false);
+
+        final ArrayList<Location> location = new ArrayList<Location>();
+        location.add(new Location("Title of Location", "Address of Location", "Description of Location", R.drawable.baltimore));
+        location.add(new Location("Title of Next Location", "Address of Location", "Description of Location"));
+
+        LocationAdapter adapter = new LocationAdapter(getActivity(), location, R.color.color_white);
+
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
+
+        listView.setAdapter(adapter);
+
+        return rootView;
     }
 
 }
