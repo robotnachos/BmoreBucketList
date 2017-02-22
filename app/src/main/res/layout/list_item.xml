@@ -10,7 +10,8 @@
     <ImageView
         android:id="@+id/image"
         android:layout_width="88dp"
-        android:layout_height="88dp" />
+        android:layout_height="88dp"
+        android:scaleType="centerCrop" />
 
 
     <LinearLayout
@@ -29,6 +30,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="bottom"
+            android:paddingRight="8dp"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/black"
             android:textStyle="bold"
@@ -40,6 +42,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="top"
+            android:paddingRight="8dp"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/black"
             tools:text="Address" />
@@ -50,10 +53,13 @@
     <TextView
         android:id="@+id/description_text_view"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:gravity="top"
-        android:paddingLeft="16dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/text_container"
+        android:gravity="top"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@android:color/black"
         tools:text="Description" />

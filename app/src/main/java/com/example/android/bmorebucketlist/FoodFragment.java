@@ -30,8 +30,9 @@ public class FoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
         final ArrayList<Location> location = new ArrayList<Location>();
-        location.add(new Location("Title of Location", "Address of Location", "Description of Location", R.drawable.baltimore));
-        location.add(new Location("Title of Next Location", "Address of Location", "Description of Location"));
+        location.add(new Location(getString(R.string.chaps_title), getString(R.string.chaps_address), getString(R.string.chaps_description), R.drawable.chaps));
+        location.add(new Location(getString(R.string.faidleys_title), getString(R.string.faidleys_address), getString(R.string.faidleys_description), R.drawable.crab));
+
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), location, R.color.color_white);
 

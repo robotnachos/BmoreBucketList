@@ -5,8 +5,49 @@
     <string name="category_bars">Bars</string>
     <string name="category_festivals">Festivals</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="on_the_hill">On The Hill</string>
-    <string name="home_address">1431 John St, Baltimore, MD</string>
+    <!-- Strings under Sights category: Title, Address, Description-->
+    <string name="mchenry_title">Fort McHenry</string>
+    <string name="mchenry_address">2400 E Fort Ave, Baltimore, MD</string>
+    <string name="mchenry_description">A historical American coastal star-shaped fort best known for its role in the War of 1812.</string>
+
+    <string name="aquarium_title">National Aquarium</string>
+    <string name="aquarium_address">501 E Pratt St, Baltimore, MD</string>
+    <string name="aquarium_description">With close to 20,000 animals the National Aquarium was named one of the best aquariums in the United States.</string>
+
+    <string name="conservatory_title">Conservatory and Gardens</string>
+    <string name="conservatory_address">3100 Swann Dr, Baltimore, MD</string>
+    <string name="conservatory_description">Visit distinct environments that allow the display of plants from all over the world.</string>
+
+    <string name="industry_title">Baltimore Museum of Industry</string>
+    <string name="industry_address">1415 Key Hwy E, Baltimore, MD</string>
+    <string name="industry_description">Located in an old cannery, the museum has exhibits on various types of manufacturing and industry from the early 20th century.</string>
+
+
+    <!-- Strings under Food category: Title, Address, Description -->
+    <string name="chaps_title">Chaps Pit Beef</string>
+    <string name="chaps_address">5801 Pulaski Hwy, Baltimore, MD</string>
+    <string name="chaps_description">Popular pit-beef outlet serving namesake sandwiches and homestyle sides in a strip-club parking lot.</string>
+
+    <string name="faidleys_title">Crab Cakes from Faidleys</string>
+    <string name="faidleys_address">203 N Paca St, Baltimore, MD</string>
+    <string name="faidleys_description">Huge, jumbo-lump crab cakes and raw oysters in a standing-room-only space</string>
+
+
+    <!-- Strings under Bars category: Title, Address, Description -->
+    <string name="tiki_title">Tiki Barge Baltimore</string>
+    <string name="tiki_address">500 Harborview Dr, Baltimore, MD</string>
+    <string name="tiki_description">Seafood-centric pub fare and tropical cocktails served a rustic, open-air setup on the harbor.</string>
+
+    <string name="onethree_title">The 13th Floor</string>
+    <string name="onethree_address">1 E Chase St, Baltimore, MD</string>
+    <string name="onethree_description">Elegant, retro bar at the top of the Belvedere Hotel offering views of the city and live dance music.</string>
+
+    <!-- Strings under Festivals category: Title, Address, Description -->
+    <string name="bike_title">Bike Party</string>
+    <string name="bike_address">600 N Paca St, Baltimore, MD</string>
+    <string name="bike_description">Bicycling to celebrate and cultivate engagement in Baltimore.</string>
+
+    <string name="kinetic_title">Kinetic Sculpture Race</string>
+    <string name="kinetic_address">800 Key Highway, Baltimore, MD</string>
+    <string name="kinetic_description">Amphibious, human powered works of art custom built for a race.</string>
 </resources>

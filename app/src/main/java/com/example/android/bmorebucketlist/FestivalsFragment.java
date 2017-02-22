@@ -30,8 +30,9 @@ public class FestivalsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
         final ArrayList<Location> location = new ArrayList<Location>();
-        location.add(new Location("Title of Location", "Address of Location", "Description of Location", R.drawable.baltimore));
-        location.add(new Location("Title of Next Location", "Address of Location", "Description of Location"));
+        location.add(new Location(getString(R.string.bike_title), getString(R.string.bike_address), getString(R.string.bike_description), R.drawable.bike));
+        location.add(new Location(getString(R.string.kinetic_title), getString(R.string.kinetic_address), getString(R.string.kinetic_description), R.drawable.kinetic));
+
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), location, R.color.color_white);
 
