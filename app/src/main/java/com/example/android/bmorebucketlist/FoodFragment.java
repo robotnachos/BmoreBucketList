@@ -32,7 +32,8 @@ public class FoodFragment extends Fragment {
         final ArrayList<Location> location = new ArrayList<Location>();
         location.add(new Location(getString(R.string.chaps_title), getString(R.string.chaps_address), getString(R.string.chaps_description), R.drawable.chaps));
         location.add(new Location(getString(R.string.faidleys_title), getString(R.string.faidleys_address), getString(R.string.faidleys_description), R.drawable.crab));
-
+        location.add(new Location(getString(R.string.woodberry_title), getString(R.string.woodberry_address), getString(R.string.woodberry_description), R.drawable.woodberry));
+        location.add(new Location(getString(R.string.parts_title), getString(R.string.parts_address), getString(R.string.parts_description), R.drawable.parts));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), location, R.color.color_white);
 

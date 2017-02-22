@@ -32,6 +32,14 @@
     <string name="faidleys_address">203 N Paca St, Baltimore, MD</string>
     <string name="faidleys_description">Huge, jumbo-lump crab cakes and raw oysters in a standing-room-only space</string>
 
+    <string name="woodberry_title">Woodberry Kitchen</string>
+    <string name="woodberry_address">2010 Clipper Park Rd, Baltimore, MD</string>
+    <string name="woodberry_description">Old factory turned hip, rustic-chic place for refined New American fare with a farm-to-table bent.</string>
+
+    <string name="parts_title">Parts and Labor</string>
+    <string name="parts_address">2600 N Howard St, Baltimore, MD</string>
+    <string name="parts_description">Modern butchery and restaurant serving wood-fired, locally sourced BBQ, craft beers and cocktails.</string>
+
 
     <!-- Strings under Bars category: Title, Address, Description -->
     <string name="tiki_title">Tiki Barge Baltimore</string>
@@ -42,6 +50,15 @@
     <string name="onethree_address">1 E Chase St, Baltimore, MD</string>
     <string name="onethree_description">Elegant, retro bar at the top of the Belvedere Hotel offering views of the city and live dance music.</string>
 
+    <string name="union_title">Union Craft Brewing</string>
+    <string name="union_address">1700 Union Ave, Baltimore, MD</string>
+    <string name="union_description">Relaxed taproom featuring craft beer and rotating food trucks plus free brewery tours every Saturday.</string>
+
+    <string name="heavy_title">Union Craft Brewing</string>
+    <string name="heavy_address">4615 Hollins Ferry Rd, Halethorpe, MD</string>
+    <string name="heavy_description">Simple local microbrewery featuring free tours, a beer-centric taproom, events and other activities.</string>
+
+
     <!-- Strings under Festivals category: Title, Address, Description -->
     <string name="bike_title">Bike Party</string>
     <string name="bike_address">600 N Paca St, Baltimore, MD</string>
@@ -50,4 +67,14 @@
     <string name="kinetic_title">Kinetic Sculpture Race</string>
     <string name="kinetic_address">800 Key Highway, Baltimore, MD</string>
     <string name="kinetic_description">Amphibious, human powered works of art custom built for a race.</string>
+
+    <string name="folk_title">Folk and Bluegrass Festival</string>
+    <string name="folk_address">900 Druid Park Lake Dr, Baltimore, MD</string>
+    <string name="folk_description">Featuring the best in national and regional talent along with a day full of world-class music, food and drinks.</string>
+
+    <string name="crab_beer_title">Crab and Beer Festival</string>
+    <string name="crab_beer_address"> 610 Light St, Baltimore, MD</string>
+    <string name="crab_beer_description">The Festival is an ALL-YOU-CARE-TO-TASTE extravaganza complete with over 30,000 crabs, lots of beer, arts and crafts, live music, family fun and so much more!</string>
+
+
 </resources>

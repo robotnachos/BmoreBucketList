@@ -32,7 +32,8 @@ public class FestivalsFragment extends Fragment {
         final ArrayList<Location> location = new ArrayList<Location>();
         location.add(new Location(getString(R.string.bike_title), getString(R.string.bike_address), getString(R.string.bike_description), R.drawable.bike));
         location.add(new Location(getString(R.string.kinetic_title), getString(R.string.kinetic_address), getString(R.string.kinetic_description), R.drawable.kinetic));
-
+        location.add(new Location(getString(R.string.folk_title), getString(R.string.folk_address), getString(R.string.folk_description), R.drawable.folk));
+        location.add(new Location(getString(R.string.crab_beer_title), getString(R.string.crab_beer_address), getString(R.string.crab_beer_description), R.drawable.crabbeer));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), location, R.color.color_white);
 

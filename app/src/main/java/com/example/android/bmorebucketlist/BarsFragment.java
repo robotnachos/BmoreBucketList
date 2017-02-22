@@ -32,7 +32,8 @@ public class BarsFragment extends Fragment {
         final ArrayList<Location> location = new ArrayList<Location>();
         location.add(new Location(getString(R.string.tiki_title), getString(R.string.tiki_address), getString(R.string.tiki_description), R.drawable.tiki));
         location.add(new Location(getString(R.string.onethree_title), getString(R.string.onethree_address), getString(R.string.onethree_description), R.drawable.onethree));
-
+        location.add(new Location(getString(R.string.union_title), getString(R.string.union_address), getString(R.string.union_description), R.drawable.union));
+        location.add(new Location(getString(R.string.heavy_title), getString(R.string.heavy_address), getString(R.string.heavy_description), R.drawable.heavy));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), location, R.color.color_white);
 
