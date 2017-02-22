@@ -32,7 +32,7 @@
             android:gravity="bottom"
             android:paddingRight="8dp"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/black"
+            android:textColor="@color/color_black"
             android:textStyle="bold"
             tools:text="Title" />
 
@@ -44,7 +44,7 @@
             android:gravity="top"
             android:paddingRight="8dp"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/black"
+            android:textColor="@color/color_black"
             tools:text="Address" />
 
 
@@ -61,7 +61,7 @@
         android:paddingRight="8dp"
         android:paddingTop="8dp"
         android:textAppearance="?android:textAppearanceMedium"
-        android:textColor="@android:color/black"
+        android:textColor="@color/secondary_text"
         tools:text="Description" />
 
 </RelativeLayout>
